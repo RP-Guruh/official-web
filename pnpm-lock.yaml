@@ -1,13 +1,17 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@mdi/font': ^7.2.96
   '@nuxtjs/tailwindcss': ^6.6.0
+  mdi-icons: ^1.0.1
   nuxt: ^3.3.1
   sass: ^1.59.3
   vuetify: ^3.1.4
 
 dependencies:
+  '@mdi/font': 7.2.96
   '@nuxtjs/tailwindcss': 6.6.0
+  mdi-icons: 1.0.1
   sass: 1.59.3
   vuetify: 3.1.4
 
@@ -813,6 +817,10 @@ packages:
       - encoding
       - supports-color
     dev: true
+
+  /@mdi/font/7.2.96:
+    resolution: {integrity: sha512-e//lmkmpFUMZKhmCY9zdjRe4zNXfbOIJnn6xveHbaV2kSw5aJ5dLXUxcRt1Gxfi7ZYpFLUWlkG2MGSFAiqAu7w==}
+    dev: false
 
   /@netlify/functions/1.4.0:
     resolution: {integrity: sha512-gy7ULTIRroc2/jyFVGx1djCmmBMVisIwrvkqggq5B6iDcInRSy2Tpkm+V5C63hKJVkNRskKWtLQKm9ecCaQTjA==}
@@ -3351,6 +3359,10 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       semver: 6.3.0
+
+  /mdi-icons/1.0.1:
+    resolution: {integrity: sha512-LxZgsL58JVQ614Z0d+HewvH+w6ugVwYj+KtlsjuKC/bMoif+TBOrJhCC0mxtlj0ZH2wT5rOj/uBEQ7M8SrCWXQ==}
+    dev: false
 
   /mdn-data/2.0.14:
     resolution: {integrity: sha512-dn6wd0uw5GsdswPFfsgMp5NSB0/aDe6fK94YJV/AJDYXL6HVLWBsxeq7js7Ad+mU2K9LAlwpk6kN2D5mwCPVow==}
